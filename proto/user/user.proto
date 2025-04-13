@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package user;
 
-option go_package = "github.com/Prrost/assignment1proto/proto/userpb";
+option go_package = "github.com/Prrost/assignment1proto/proto/user";
 
 service UserService {
   rpc RegisterUser (RegisterRequest) returns (RegisterResponse);

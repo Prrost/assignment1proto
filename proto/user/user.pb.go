@@ -4,7 +4,7 @@
 // 	protoc        v5.29.3
 // source: proto/user/user.proto
 
-package userpb
+package user
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -350,7 +350,7 @@ const file_proto_user_user_proto_rawDesc = "" +
 	"\vUserService\x12=\n" +
 	"\fRegisterUser\x12\x15.user.RegisterRequest\x1a\x16.user.RegisterResponse\x129\n" +
 	"\x10AuthenticateUser\x12\x11.user.AuthRequest\x1a\x12.user.AuthResponse\x121\n" +
-	"\x0eGetUserProfile\x12\f.user.UserID\x1a\x11.user.UserProfileB1Z/github.com/Prrost/assignment1proto/proto/userpbb\x06proto3"
+	"\x0eGetUserProfile\x12\f.user.UserID\x1a\x11.user.UserProfileB/Z-github.com/Prrost/assignment1proto/proto/userb\x06proto3"
 
 var (
 	file_proto_user_user_proto_rawDescOnce sync.Once
